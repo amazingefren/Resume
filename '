@@ -1,0 +1,70 @@
+\documentclass{article}
+
+\usepackage{titlesec}
+\usepackage{titling}
+
+\titleformat{\section}
+{\huge}
+{}
+{0em}
+{}
+\titleformat{\subsection}
+{\large\bfseries}
+{}
+{0em}
+{}[\titlerule]
+\titleformat{\subsubsection}
+{}
+{}
+{0em}
+{}
+
+\renewcommand{\maketitle}{
+\begin{center}
+    {\huge\bfseries\theauthor}
+
+}
+
+\begin{document}
+
+\title{Resume}
+\author{Efren Castro}
+
+\maketitle
+
+\section{Technical Skills}
+\subsection{Languages}
+Javascript, Typescript, C/C++, Python
+\subsection{Database}
+MongoDB, MySQL, PostgreSQL
+\subsection{API}
+MongoDB, REST, JSON, OAuth, JWT, ExpressJS, NodeJS, NPM
+\subsection{Frameworks}
+HTML, CSS, SCSS, React, Redux, Apollo, GSAP, Vue
+\subsection{Deployment}
+GIT, Docker 
+\subsection{Other}
+Linux, Shell Scripting, CLI
+
+\section{Related Work Experience}
+\subsection{Web Developer}
+\subsubsection{Independent Contractor}
+12/2019-04/2020
+\subsubsection{Developed multiple proprietary scalable Web applications for small businesses throughout the Denver region}
+\subsubsection{Front End UX Development}
+\subsubsection{Back End API and Auth Services}
+
+\section{Education}
+\subsection{University of Denver}
+Coding Certification
+06/2019-11/2019
+\subsection{University of Colorado Boulder}
+\subsection{Relevant Coursework: Computer Science, Calculus}
+Completed 32 credits towards a BA in Computer Science
+08/2017 - 05/2018
+
+\section{Languages}
+\subsection{Native: English}
+\subsection{Bilingual Proficiency: Spanish}
+
+\end{document}
