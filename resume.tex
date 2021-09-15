@@ -20,14 +20,14 @@
 }
 
 \definecolor{themeBG}{HTML}{131939}
-\definecolor{themeBorder}{HTML}{CDD2E4}
+\definecolor{themeBorder}{HTML}{F0F0FF}
 
 \title{Efren Castro's Resume}
 \date{2021}
 
 % \usepackage{sans}
 \usepackage{fontspec}
-\setmainfont[Ligatures=TeX]{Work Sans}
+\setmainfont[Ligatures=TeX]{Lato}
 
 \begin{document}
 
@@ -36,8 +36,8 @@
 % \begin{tcolorbox}[lifted shadow={0mm}{0mm}{0mm}{1mm}{themeBG}]
 \begin{tcolorbox}
   \begin{minipage}{15cm}
-    \huge{\textcolor{white}{\scshape{Efren Castro}}}\\
-    \normalsize{\textcolor{white}{\scshape{Full Stack Web Developer}}}
+    \huge{\textcolor{white}{Efren Castro}}\\
+    \large{\textcolor{white}{Full Stack Web Developer}}
   \end{minipage}
   \begin{minipage}{4.5cm}
     \includegraphics[width=4cm,trim=-3cm 5cm 3cm 0]{Logo.png}
@@ -53,10 +53,11 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar neque eget placerat faucibus. Donec aliquet consectetur gravida. Curabitur placerat risus non facilisis luctus. Nullam nec ante neque. Vestibulum commodo dapibus sollicitudin. Donec eu finibus odio. Phasellus auctor ut felis et efficitur.
       \section*{Contact}
       \begin{tabular}{r l}
-        \emph{Phone}      & (720)539-6101 \\
-        \emph{Email}      & efrencastro.dev@gmail.com \\
-        \emph{Portfolio}  & amazingefren.com \\
-        \emph{LinkedIn}   & /in/amazingefren
+        \emph{Phone}      & 720-539-6101\\
+        \emph{Email}      & efrencastro.dev@gmail.com\\
+        \emph{Portfolio}  & amazingefren.com\\
+        \emph{LinkedIn}   & /in/amazingefren\\
+        \emph{Github}     & amazingefren
       \end{tabular}
 
       \section*{Skills}
@@ -99,9 +100,71 @@
                       & WebGL \\
                       & GIMP \\
         \emph{Extra}  & Film and Photography \\
-                      & Robotics \\
                       & Cyber Security
       \end{tabular}
+    \end{tcolorbox}
+  \end{minipage}
+  \begin{minipage}[t]{10cm}
+    \vspace*{-0.5cm}
+    \begin{tcolorbox}[grow to right by=1cm,colframe=white,colback=white]
+      \section*{Education}
+      \begin{itemize}[label={}]
+        \item{
+            \textbf{University of Colorado Boulder}\\
+            \emph{Studies in Computer Science}\\
+            \emph{Completed Coursework from 2017-2018}
+          }
+        \item{
+            \textbf{Community College of Aurora}\\
+            \emph{General Studies}\\
+            \emph{Completed Coursework from 2016-2017}
+          }
+      \end{itemize}
+      \section*{Certifications}
+      \begin{itemize}[label={}]
+        \item{
+            \textbf{Harvard University}\\
+            Computer Science Certification\\
+            \emph{Focus on Software Engineering}\\
+            \emph{2020}
+          }
+        \item{
+            \textbf{University of Denver}\\
+            Coding Certification\\
+            \emph{Focus on Full Stack Web Development}\\
+            \emph{2019}
+          }
+      \end{itemize}
+      \section*{Projects}
+      \begin{itemize}[label={}]
+        \item{
+            \textbf{Sosile Client}
+          }
+        \item{
+            \textbf{Sosile Server}
+          }
+      \end{itemize}
+      \section*{Experience}
+      \begin{itemize}[leftmargin=0.6cm, label={-}]
+        \item{
+            \textbf{Web Developer - Contract}\\
+            {June 2020 - November 2020}\\
+            {- Developed a \textbf{REST API} with \textbf{Typescript}}\\
+            {- Implementing \textbf{Square Orders} and \textbf{Postmates}}\\
+            {- For a multi-state family restaurant}
+            \vspace{0.5cm}\\
+            {January 2021 - March 2021}\\
+            {- Deployment of a \textbf{Jitsi Meet} Server}\\
+            {- On a fully featured \textbf{Nginx} reverse proxy}\\
+            {- Developed a set automation scripts}\\
+            {\hspace*{9pt}Implementing \textbf{Bash}, \textbf{Python}, \textbf{Docker}}
+
+        }
+        \item{
+            \textbf{Web Developer - Self}\\
+            \emph{November 2019 - Now}
+          }
+      \end{itemize}
     \end{tcolorbox}
   \end{minipage}
 \end{tcolorbox}
