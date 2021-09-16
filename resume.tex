@@ -10,7 +10,6 @@
 
 \usepackage{enumitem}
 \usepackage{sectsty}
-% \setlist[itemize]{leftmargin=0.6cm}
 
 \geometry{
   a4paper,
@@ -28,7 +27,6 @@
 \title{Efren Castro's Resume}
 \date{2021}
 
-% \usepackage{sans}
 \usepackage{fontspec}
 \setmainfont[Ligatures=TeX]{Roboto Light}
 \newfontfamily\altfont{Roboto}
@@ -42,7 +40,6 @@
 
 \tcbset{colframe=white,colback=themeBG,arc=0mm,enhanced}
 
-% \begin{tcolorbox}[lifted shadow={0mm}{0mm}{0mm}{1mm}{themeBG}]
 \begin{tcolorbox}
   \begin{minipage}{15cm}
     \huge{\textcolor{white}{Efren Castro}}\\
@@ -64,17 +61,17 @@
         Currently specializing in developing performant,\\
         organized, and scalable API applications.
       \section*{Contact}
-      \begin{tabular}{r l}
-        {\altfont{Phone}}:     & 720-539-6101\\
+      \begin{tabular}{l l}
+        {\altfont{Phone}}:     & (720)539-6101\\
         {\altfont{Email}}:     & efrencastro.dev@gmail.com\\
-        {\altfont{Portfolio}}: & amazingefren.com\\
+        {\altfont{Portfolio}}: & \textcolor{themeBase}{https://amazingefren.com}\\
         {\altfont{LinkedIn}}:  & /in/amazingefren\\
         {\altfont{Github}}:    & amazingefren
       \end{tabular}
 
       \section*{Skills}
 
-      \begin{itemize}[leftmargin=0.8cm]
+      \begin{itemize}[leftmargin=0.4cm, label={}]
         \item{
           {\heavyfont{Web Development}} \\ 
           \emph{Typescript, Javascript, React,} \\
@@ -105,7 +102,7 @@
       \end{itemize}
 
       \section*{Interests and Hobbies}
-      \begin{tabular}{r l}
+      \begin{tabular}{l l}
         \emph{\altfont{Linux}}  & (Neo)Vim \\
                                 & Machine Learning \\
                                 & Software Engineering \\
@@ -131,9 +128,12 @@
              Sosile is a social media site that I am actively \\
              developing as a platform to experiment with\\
              a larger set of technologies such as WebRTC.\\
-             Built with {{NextJS}},{{Apollo}},{{Typescript}}\\
-             \small{live: \emph{\textcolor{themeBase}{https://sosile.amazingefren.com}}}\\
-             \small{code: \emph{\textcolor{themeBase}{https://git.amazingefren.com/sosile-client}}}
+             Built with {{NextJS}},{{Apollo}},{{Typescript}}
+             \vspace{0.2cm}\\
+             \begin{tabular}{@{}ll@{}}
+              {\altfont{Code}}: & \emph{\textcolor{themeBase}{https://git.amazingefren.com/sosile-client}}\\
+              {\altfont{Live}}: & \emph{\textcolor{themeBase}{https://sosile.amazingefren.com}}\\
+            \end{tabular}
           }
         \item{
             {{\altfont{\large{Sosile Server}}}}
@@ -141,38 +141,34 @@
             API featuring a fully modularized {{GraphQL}} endpoint\\
             utilizing awesome technologies such as {{NestJS}},\\
             {{PostgreSQL}}, {{Fastify}}, {{PrismaORM}}, and protected\\
-            with a {{OAuth2.0}} inspired Authentication model\\
-           \small{live: \emph{\textcolor{themeBase}{https://sosile.amazingefren.com}}}\\
-           \small{code: \emph{\textcolor{themeBase}{https://git.amazingefren.com/sosile-server}}}
+            with a {{OAuth2.0}} inspired Authentication model
+           \vspace{0.2cm}\\
+           \begin{tabular}{@{}ll@{}}
+            {\altfont{Code}}: & \emph{\textcolor{themeBase}{https://git.amazingefren.com/sosile-server}}\\
+            {\altfont{Live}}: & \emph{\textcolor{themeBase}{https://sosile.amazingefren.com}}\\
+          \end{tabular}
           }
       \end{itemize}
 
       \vspace{-0.6cm}
       \section*{Experience}
       \vspace{-0.2cm}
-      \begin{itemize}
-        \item{
-            {{\heavyfont{Web Developer}} • Contract-Hire}
-            \vspace{0.2cm}\\
-            \emph{\altfont{June 2020 - November 2020}}\\
-            {Developed a {{REST API}} with {{Typescript}}}\\
-            {implementing {{Square Orders API}} and {{Postmates}}}\\
-            {providing seamless mobile-ordering for the people}\\
-            {impacted during the COVID-19 pandemic}
-            \vspace{0.2cm}\\
-            \emph{\altfont{January 2021 - March 2021}}\\
-            {Deployment of a {Jitsi Meet} Server}\\
-            {on a fully featured {Nginx} reverse proxy}.\\
-            {Developed a set automation scripts}\\
-            {implementing {Bash}, {Python}, {Docker}}
-
-        }
-        % \item{
-        %     {{\heavyfont{Web Developer}} • Self-Employed}\\
-        %     \emph{November 2019 - Now}
-        %   }
+      \begin{itemize}[label={}]
+        \item{{\heavyfont{Web Developer}} - Contract-Hire
+          \begin{itemize}[leftmargin=-0cm]
+            \vspace{-0.20cm}
+              \item{\emph{\altfont{June 2020 - November 2020}}\\
+                {Developed a {{REST API}} with {{Typescript}}}\\
+                {implementing {{Square Orders API}} and {{Postmates}}}\\
+                {providing seamless mobile-ordering for the}\\
+                {people impacted during the COVID-19 pandemic}}
+              \item{\emph{\altfont{January 2021 - March 2021}}\\
+                {Deployment of a {Jitsi Meet} Server}\\
+                {on a fully featured {Nginx} reverse proxy}.\\
+                {Developed a set automation scripts}\\
+                {implementing {Bash}, {Python}, {Docker}}}
+          \end{itemize}}
       \end{itemize}
-
       \vspace{-0.6cm}
       \section*{Certifications}
       \vspace{-0.2cm}
@@ -186,7 +182,6 @@
             {{\heavyfont{University of Denver}} - \footnotesize{\emph{2019}}}\\
             {Coding Certification}\\
             \emph{Focus on Full Stack Web Development}
-            % \emph{2019}
           }
       \end{itemize}
 
